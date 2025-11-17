@@ -1,7 +1,7 @@
 [project]
 name = "automotions"
 version = "0.1.0"
-description = "Add your description here"
+description = "Automatically fetches motion statistics data from tabbycat"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -12,3 +12,10 @@ dependencies = [
     "requests>=2.32.5",
     "yaspin>=3.3.0",
 ]
+
+[project.scripts]
+automotions-tui = "app.tui:main"
+automotions-cli = "app.cli:main"
+
+[tool.uv]
+package = true
