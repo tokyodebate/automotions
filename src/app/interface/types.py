@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import TypedDict, Literal
 from pathlib import Path
 
-from app.types import TournamentData, TournamentYear
+from ..types import TournamentData, TournamentYear
 
 class TabbycatContext(TypedDict):
     base_url: str
