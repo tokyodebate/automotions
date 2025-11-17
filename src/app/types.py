@@ -1,4 +1,3 @@
-from turtle import st
 from typing import TypedDict, Literal
 
 TournamentTagList = ["Australasian", "BP", "Asian", "NA", "rookie", "open", "proam", "region:Domestic", "region:World", "region:Asia", "region:Europe", "region:Oceania", "region:America"]
